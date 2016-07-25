@@ -13,6 +13,7 @@ public class NewTest {
 			driver.get("http://www.guru99.com/selenium-tutorial.html");  
 			String title = driver.getTitle();				 
 			Assert.assertTrue(title.contains("Free Selenium Tutorials")); 		
+			System.out.println("I just update new code here");
 		}	
 		@BeforeTest
 		public void beforeTest() {	
